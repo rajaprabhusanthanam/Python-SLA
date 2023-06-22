@@ -1,0 +1,53 @@
+items = [ 1, 2, 3, 4, 5, 'Chennai', 'Madurai', 'Trichy', 'Red', 'Orange', 'Black' ]
+
+print()
+print('append')
+items.append('Mango')
+items.append('Banana')
+print('append - mango')
+print('append - banana')
+print(items)
+print()
+
+items.pop()
+print('pop')
+print('removal of the last item')
+print(items)
+print()
+
+items.extend([7, 8, 9, 'Apple', 'Banana', 'Grapes'])
+print('extend')
+print('extend - 7,8,9,apple,banana,grapes')
+print(items)
+print()
+
+items.count('Mango')
+print('count')
+print('counting of items -  mango')
+print(items.count('Mango'))
+print()
+
+items.insert(6, 'Srivi')
+print('insert')
+print('insertion at a position - at 6th position, Srivi')
+print(items)
+print()
+
+items.remove(9)
+items.remove('Banana')
+print('remove')
+print('removal of the items- 9, banana')
+print(items)
+print()
+
+items.reverse()
+print('reverse')
+print('reversing the list of items')
+print(items)
+print()
+
+items.clear()
+print('clear')
+print('clearing all items')
+print(items)
+print()
